@@ -4,8 +4,8 @@
 #include <DallasTemperature.h>
 //Esse programa realiza gerenciamento de lampadas e medicao de temperatura da sala.
  
-const char* ssid = "Paulo 1";
-const char* password = "Joca0505";
+const char* ssid = "WiFi here";
+const char* password = "WiFi password here";
 int status = WL_IDLE_STATUS;
 WiFiClient  client;
 //int minut = 5;
@@ -26,8 +26,8 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature DS18B20(&oneWire);
 char temperatureCString[6];
 
-unsigned long myChannelNumber = 170635;
-const char * myWriteAPIKey = "RZSK1Q6HS97Q3WRU";
+unsigned long myChannelNumber = 123456;
+const char * myWriteAPIKey = "WriteAPIkey here";
 
  
 void setup() {
