@@ -4,8 +4,8 @@
 #include <DallasTemperature.h>
 
 // Replace with your network details
-const char* ssid = "LAB_ABERTO";
-const char* password = "C1T@C3TEC";
+const char* ssid = "WiFi here";
+const char* password = "WiFi password here";
 int status = WL_IDLE_STATUS;
 WiFiClient  client;
 
@@ -24,8 +24,8 @@ char temperatureFString[6];
 // Web Server on port 80
 WiFiServer server(80);
 
-unsigned long myChannelNumber = 170635;
-const char * myWriteAPIKey = "RZSK1Q6HS97Q3WRU";
+unsigned long myChannelNumber = 123456; // Insert your number here
+const char * myWriteAPIKey = "Write APIkey here";
 
 // only runs once on boot
 void setup() {
